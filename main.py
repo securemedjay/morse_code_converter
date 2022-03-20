@@ -6,7 +6,7 @@ is_continue = True
 
 
 def return_morse(word):
-    morse_word = ""
+    morse_word = " "
     for char in word:
         morse_letter = str(data_dict[char])
         morse_word += f"{morse_letter} "
